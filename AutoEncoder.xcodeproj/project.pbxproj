@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847DD91A18F74D9F004FDEA9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847DD91918F74D9F004FDEA9 /* Cocoa.framework */; };
+		847DD92418F74DA0004FDEA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847DD92218F74DA0004FDEA9 /* InfoPlist.strings */; };
+		847DD92618F74DA0004FDEA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DD92518F74DA0004FDEA9 /* main.m */; };
+		847DD92A18F74DA0004FDEA9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 847DD92818F74DA0004FDEA9 /* Credits.rtf */; };
+		847DD92D18F74DA0004FDEA9 /* AEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DD92C18F74DA0004FDEA9 /* AEAppDelegate.m */; };
+		847DD93018F74DA0004FDEA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847DD92E18F74DA0004FDEA9 /* MainMenu.xib */; };
+		847DD93218F74DA0004FDEA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DD93118F74DA0004FDEA9 /* Images.xcassets */; };
+		847DD93918F74DA0004FDEA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847DD93818F74DA0004FDEA9 /* XCTest.framework */; };
+		847DD93A18F74DA0004FDEA9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847DD91918F74D9F004FDEA9 /* Cocoa.framework */; };
+		847DD94218F74DA0004FDEA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847DD94018F74DA0004FDEA9 /* InfoPlist.strings */; };
+		847DD94418F74DA0004FDEA9 /* AutoEncoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DD94318F74DA0004FDEA9 /* AutoEncoderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847DD93B18F74DA0004FDEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847DD90E18F74D9F004FDEA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847DD91518F74D9F004FDEA9;
+			remoteInfo = AutoEncoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847DD91618F74D9F004FDEA9 /* AutoEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DD91918F74D9F004FDEA9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		847DD91C18F74DA0004FDEA9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		847DD91D18F74DA0004FDEA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		847DD91E18F74DA0004FDEA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		847DD92118F74DA0004FDEA9 /* AutoEncoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoEncoder-Info.plist"; sourceTree = "<group>"; };
+		847DD92318F74DA0004FDEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847DD92518F74DA0004FDEA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847DD92718F74DA0004FDEA9 /* AutoEncoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoEncoder-Prefix.pch"; sourceTree = "<group>"; };
+		847DD92918F74DA0004FDEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		847DD92B18F74DA0004FDEA9 /* AEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEAppDelegate.h; sourceTree = "<group>"; };
+		847DD92C18F74DA0004FDEA9 /* AEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEAppDelegate.m; sourceTree = "<group>"; };
+		847DD92F18F74DA0004FDEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		847DD93118F74DA0004FDEA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847DD93718F74DA0004FDEA9 /* AutoEncoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoEncoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DD93818F74DA0004FDEA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		847DD93F18F74DA0004FDEA9 /* AutoEncoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoEncoderTests-Info.plist"; sourceTree = "<group>"; };
+		847DD94118F74DA0004FDEA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		847DD94318F74DA0004FDEA9 /* AutoEncoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoEncoderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847DD91318F74D9F004FDEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD91A18F74D9F004FDEA9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DD93418F74DA0004FDEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD93A18F74DA0004FDEA9 /* Cocoa.framework in Frameworks */,
+				847DD93918F74DA0004FDEA9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847DD90D18F74D9F004FDEA9 = {
+			isa = PBXGroup;
+			children = (
+				847DD91F18F74DA0004FDEA9 /* AutoEncoder */,
+				847DD93D18F74DA0004FDEA9 /* AutoEncoderTests */,
+				847DD91818F74D9F004FDEA9 /* Frameworks */,
+				847DD91718F74D9F004FDEA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847DD91718F74D9F004FDEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847DD91618F74D9F004FDEA9 /* AutoEncoder.app */,
+				847DD93718F74DA0004FDEA9 /* AutoEncoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847DD91818F74D9F004FDEA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847DD91918F74D9F004FDEA9 /* Cocoa.framework */,
+				847DD93818F74DA0004FDEA9 /* XCTest.framework */,
+				847DD91B18F74DA0004FDEA9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847DD91B18F74DA0004FDEA9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847DD91C18F74DA0004FDEA9 /* AppKit.framework */,
+				847DD91D18F74DA0004FDEA9 /* CoreData.framework */,
+				847DD91E18F74DA0004FDEA9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		847DD91F18F74DA0004FDEA9 /* AutoEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				847DD92B18F74DA0004FDEA9 /* AEAppDelegate.h */,
+				847DD92C18F74DA0004FDEA9 /* AEAppDelegate.m */,
+				847DD92E18F74DA0004FDEA9 /* MainMenu.xib */,
+				847DD93118F74DA0004FDEA9 /* Images.xcassets */,
+				847DD92018F74DA0004FDEA9 /* Supporting Files */,
+			);
+			path = AutoEncoder;
+			sourceTree = "<group>";
+		};
+		847DD92018F74DA0004FDEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847DD92118F74DA0004FDEA9 /* AutoEncoder-Info.plist */,
+				847DD92218F74DA0004FDEA9 /* InfoPlist.strings */,
+				847DD92518F74DA0004FDEA9 /* main.m */,
+				847DD92718F74DA0004FDEA9 /* AutoEncoder-Prefix.pch */,
+				847DD92818F74DA0004FDEA9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847DD93D18F74DA0004FDEA9 /* AutoEncoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				847DD94318F74DA0004FDEA9 /* AutoEncoderTests.m */,
+				847DD93E18F74DA0004FDEA9 /* Supporting Files */,
+			);
+			path = AutoEncoderTests;
+			sourceTree = "<group>";
+		};
+		847DD93E18F74DA0004FDEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847DD93F18F74DA0004FDEA9 /* AutoEncoderTests-Info.plist */,
+				847DD94018F74DA0004FDEA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847DD91518F74D9F004FDEA9 /* AutoEncoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DD94718F74DA0004FDEA9 /* Build configuration list for PBXNativeTarget "AutoEncoder" */;
+			buildPhases = (
+				847DD91218F74D9F004FDEA9 /* Sources */,
+				847DD91318F74D9F004FDEA9 /* Frameworks */,
+				847DD91418F74D9F004FDEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoEncoder;
+			productName = AutoEncoder;
+			productReference = 847DD91618F74D9F004FDEA9 /* AutoEncoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847DD93618F74DA0004FDEA9 /* AutoEncoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DD94A18F74DA0004FDEA9 /* Build configuration list for PBXNativeTarget "AutoEncoderTests" */;
+			buildPhases = (
+				847DD93318F74DA0004FDEA9 /* Sources */,
+				847DD93418F74DA0004FDEA9 /* Frameworks */,
+				847DD93518F74DA0004FDEA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847DD93C18F74DA0004FDEA9 /* PBXTargetDependency */,
+			);
+			name = AutoEncoderTests;
+			productName = AutoEncoderTests;
+			productReference = 847DD93718F74DA0004FDEA9 /* AutoEncoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847DD90E18F74D9F004FDEA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tipping Canoe";
+				TargetAttributes = {
+					847DD93618F74DA0004FDEA9 = {
+						TestTargetID = 847DD91518F74D9F004FDEA9;
+					};
+				};
+			};
+			buildConfigurationList = 847DD91118F74D9F004FDEA9 /* Build configuration list for PBXProject "AutoEncoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847DD90D18F74D9F004FDEA9;
+			productRefGroup = 847DD91718F74D9F004FDEA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847DD91518F74D9F004FDEA9 /* AutoEncoder */,
+				847DD93618F74DA0004FDEA9 /* AutoEncoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847DD91418F74D9F004FDEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD92418F74DA0004FDEA9 /* InfoPlist.strings in Resources */,
+				847DD93218F74DA0004FDEA9 /* Images.xcassets in Resources */,
+				847DD92A18F74DA0004FDEA9 /* Credits.rtf in Resources */,
+				847DD93018F74DA0004FDEA9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DD93518F74DA0004FDEA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD94218F74DA0004FDEA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847DD91218F74D9F004FDEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD92D18F74DA0004FDEA9 /* AEAppDelegate.m in Sources */,
+				847DD92618F74DA0004FDEA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847DD93318F74DA0004FDEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DD94418F74DA0004FDEA9 /* AutoEncoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847DD93C18F74DA0004FDEA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847DD91518F74D9F004FDEA9 /* AutoEncoder */;
+			targetProxy = 847DD93B18F74DA0004FDEA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847DD92218F74DA0004FDEA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DD92318F74DA0004FDEA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		847DD92818F74DA0004FDEA9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DD92918F74DA0004FDEA9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		847DD92E18F74DA0004FDEA9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DD92F18F74DA0004FDEA9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		847DD94018F74DA0004FDEA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DD94118F74DA0004FDEA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847DD94518F74DA0004FDEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		847DD94618F74DA0004FDEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		847DD94818F74DA0004FDEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoEncoder/AutoEncoder-Prefix.pch";
+				INFOPLIST_FILE = "AutoEncoder/AutoEncoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		847DD94918F74DA0004FDEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoEncoder/AutoEncoder-Prefix.pch";
+				INFOPLIST_FILE = "AutoEncoder/AutoEncoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		847DD94B18F74DA0004FDEA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoEncoder.app/Contents/MacOS/AutoEncoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoEncoder/AutoEncoder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoEncoderTests/AutoEncoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		847DD94C18F74DA0004FDEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoEncoder.app/Contents/MacOS/AutoEncoder";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoEncoder/AutoEncoder-Prefix.pch";
+				INFOPLIST_FILE = "AutoEncoderTests/AutoEncoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847DD91118F74D9F004FDEA9 /* Build configuration list for PBXProject "AutoEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DD94518F74DA0004FDEA9 /* Debug */,
+				847DD94618F74DA0004FDEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DD94718F74DA0004FDEA9 /* Build configuration list for PBXNativeTarget "AutoEncoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DD94818F74DA0004FDEA9 /* Debug */,
+				847DD94918F74DA0004FDEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847DD94A18F74DA0004FDEA9 /* Build configuration list for PBXNativeTarget "AutoEncoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DD94B18F74DA0004FDEA9 /* Debug */,
+				847DD94C18F74DA0004FDEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847DD90E18F74D9F004FDEA9 /* Project object */;
+}
