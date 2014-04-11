@@ -467,6 +467,7 @@
 				847DD94918F74DA0004FDEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847DD94A18F74DA0004FDEA9 /* Build configuration list for PBXNativeTarget "AutoEncoderTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				847DD94C18F74DA0004FDEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -64,12 +64,12 @@
         [_txtOutput.textStorage appendAttributedString:decodeString];
     }
     
-    NSAttributedString *initEndString = [[NSAttributedString alloc] initWithString:@"   }\n\n\treturn self;\n}\n\n\n"];
+    NSAttributedString *initEndString = [[NSAttributedString alloc] initWithString:@"\t}\n\n\treturn self;\n}\n\n\n"];
     
     [_txtOutput.textStorage appendAttributedString:initEndString];
 
     
-    NSAttributedString *encodeBeginString = [[NSAttributedString alloc] initWithString:@"- (void)encodeWithCoder:(NSCoder *)aCoder{\n\n\t[super encodeWithCoder:aCoder];\n\n"];
+    NSAttributedString *encodeBeginString = [[NSAttributedString alloc] initWithString:@"- (void)encodeWithCoder:(NSCoder *)aCoder{\n\n\t[super encodeWithCoder:aCoder];\n"];
     
     [_txtOutput.textStorage appendAttributedString:encodeBeginString];
 
@@ -79,7 +79,7 @@
         [_txtOutput.textStorage appendAttributedString:decodeString];
     }
     
-    NSAttributedString *encodeEndString = [[NSAttributedString alloc] initWithString:@"\n}"];
+    NSAttributedString *encodeEndString = [[NSAttributedString alloc] initWithString:@"}"];
 
     [_txtOutput.textStorage appendAttributedString:encodeEndString];
 }
