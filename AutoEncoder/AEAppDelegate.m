@@ -60,7 +60,7 @@
     
     for (NSString *var in variables) {
         
-        NSAttributedString *decodeString = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"\tself.%@ = [aDecoder decodeObjectForKey:@\"%@\"];\n",var, var]];
+        NSAttributedString *decodeString = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"\t\tself.%@ = [aDecoder decodeObjectForKey:@\"%@\"];\n",var, var]];
         [_txtOutput.textStorage appendAttributedString:decodeString];
     }
     
